@@ -5,9 +5,9 @@ How It Works
 
 **Code:**
 ```
-**SELECT** ProductId, ProductName, CategoryName
-**FROM** Products
-**INNER JOIN** Categories **ON** Products.CategoryId = Categories.CategoryId;
+SELECT ProductId, ProductName, CategoryName
+FROM Products
+INNER JOIN Categories ON Products.CategoryId = Categories.CategoryId;
 ```
 
 **Result:**
